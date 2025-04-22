@@ -44,7 +44,7 @@ document.getElementById('postalCodeForm')?.addEventListener('submit', (e) => {
     : `We’re sorry, we don’t service postal code ${postalCode} yet. Contact us for assistance.`;
 
   const whatsappMessage = `Postal Code Check:\nPostal Code: ${postalCode}\nResult: ${message}`;
-  const phoneNumber = 'YOUR_PHONE_NUMBER';
+  const phoneNumber = '919899964218';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   window.open(whatsappUrl, '_blank');
